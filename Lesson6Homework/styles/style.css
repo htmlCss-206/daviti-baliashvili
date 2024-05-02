@@ -1,0 +1,131 @@
+nav p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.13px;
+    text-align: center;
+}
+
+.navItem1, .navItem2, .navItem3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navItem1 span {
+    width: 100px;
+    height: 5px;
+    background-color: black;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+.navItem2 span {
+    width: 180px;
+    height: 5px;
+    background-color: black;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+.navItem3 span {
+    width: 160px;
+    height: 5px;
+    background-color: black;
+    /* position: relative;
+    bottom: 20px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper {
+    width: 960px;
+}
+
+#mainText1 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.image1 {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.image2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 200px;
+    cursor: pointer;
+}
+.image3 {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: relative;
+    bottom: 380px;
+    cursor: pointer;
+    width: 100px;
+    height: 150px;
+    left: 800px;
+    gap: 0px;
+    opacity: 0px;
+}
+.p1{
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    text-align: left;
+    margin-left: 30px;
+    position: relative;
+    bottom: 300px;
+    width: 800px;
+    height: 180px;
+    left: 4dvh;
+}
+
+.footer{
+    background-color: black;
+    height: 75px;
+    width: 960px;
+    position: relative;
+    bottom: 200px;
+}
+input{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 910px;
+    bottom: 1000px;
+}
+input:hover{
+    cursor: pointer;
+}
+input:active{
+    background-color: rgb(151, 151, 151);
+}
+input:focus {
+    border-color: rgb(151, 151, 151);
+    outline: none;
+    background-color: rgb(224, 224, 224);
+}
+img:focus {
+    border-color: dodgerblue;
+    outline: none;
+    background-color: #ababab;
+}
