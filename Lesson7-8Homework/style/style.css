@@ -1,0 +1,262 @@
+body{
+    background-image: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,0,0,1) 54%, rgba(215,197,171,1) 100%);
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    background-color: black;
+    height: 30px;
+    width: 900px;
+    color: white;
+    font-size: large;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a{
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.nav a:hover{
+    background-color: rgb(68, 68, 68);
+    cursor: pointer;
+}
+
+.wrapperDiv{
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+.paragraph{
+    width: 250px;
+}
+
+td, th, tr{
+    border: 2px solid black;
+}
+
+.div{
+    width: 300px;
+}
+
+.div2{
+    width: 300px;
+    padding-top: 30px;
+}
+
+.table{
+    padding-left: 250px;
+    margin-top: -230px;
+}
+
+.table1{
+    padding-left: 250px;
+    margin-top: -260px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+}
+.socialmeidas .nav2{
+    margin-left: -40px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav2 li a, i{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.nav2{
+    position: fixed;
+    width: 70px;
+    margin-top: 250px;
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
+    border-radius: 30px;
+}
+.nav2 li{
+    height: 55px;
+    position: relative;
+}
+.nav2 li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 55px;
+    padding-left: 25%;
+    border-bottom: 1px solid #3d3d3d;
+    border-radius: 30px;
+    color: #fff;
+    transition: all 0.2s linear;
+}
+.nav2 li a i{
+    position: absolute;
+    top: 17px;
+    left: 30px;
+}
+.nav2 span{
+    display: none;
+    color: black;
+    margin-top: -55px;
+}
+.nav2 a:hover{
+    width: 200px;
+    z-index: 1;
+    border-radius: 30px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+    box-shadow: 2px 2px 8px 0px rgba(0,0,0,.5);
+}
+.nav2 li:nth-child(1):hover a{
+    background-color: #4064ac;
+}
+.nav2 li:nth-child(2):hover a{
+    background-color: #1DA1F2;
+}
+.nav2 li:nth-child(3):hover a{
+    background-color: #d12679;
+}
+.nav2 li:nth-child(4):hover a{
+    background-color: #3d3d3d;
+}
+.nav2 li:nth-child(5):hover a{
+    background-color:  #FF0000;
+}
+.nav2 li:nth-child(6):hover a{
+    background-color: #4064ac;
+}
+.nav2 li a:hover span{
+    display: block;
+    padding-left: 40%;
+}
+.socialmeidas{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+.wrapperDiv1{
+    height: 50%;
+}
+.wrapperDiv2{
+    height: 50%;
+}
+.footerdiv1{
+    width: 250px;
+    height: 180px;
+}
+td:hover{
+    cursor: pointer;
+    background-color: #AA0000;
+}
+.footerdiv2{
+    width: 240px;
+    height: 170px;
+    margin-top: -33px;
+    margin-left: 5px;
+}
+.footerdiv3{
+    width: 140px;
+    height: 80px;
+    margin-top: -88px;
+    margin-left: 25px;
+}
+.footerdiv4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: -130px;
+    margin-left: 25px;
+}
+.footerdiv5{
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 170px;
+    margin-top: -13px;
+    background-color: #09ff00;
+}
+.footerdiv5:hover{
+    cursor: pointer;
+    background-color: #049b31;
+}
+.commentimg{
+    width: 60px;
+    height: 60px;
+    margin-left: -5px;
+    margin-top: -6px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.footerdiv6{
+    width: 70px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 170px;
+    background-color: #FF0000;
+}
+.footerdiv6:hover{
+    cursor: pointer;
+    background-color: #AA0000;
+}
+.wrapperdiv{
+    margin-left: 35px;
+}
+.h3{
+    width: 100%;
+    height: 40%;
+    background-color: #3d3d3d;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+.link{
+    width: 50px;
+    height: 10px;
+    color: #FF0000;
+    display: flex;
+    justify-content: space;
+    margin-top: 90px;
+    margin-left: -915px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+.email{
+    width: 150px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    margin-top: 35px;
+    margin-left: -385px;
+}
+button{
+    margin-top: 70px;
+    margin-left: -145px;
+    background-color: #3d3d3d;
+    border-radius: 25px;
+    border: 1s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #6b6b6b;
+}
+.Contact{
+    width: 190px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: -215px;
+}
